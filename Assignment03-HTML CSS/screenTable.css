@@ -1,0 +1,24 @@
+/* Table */
+@media screen and (min-width: 536px) and (max-width: 1280px) {
+  /*   .space {
+    display: none;
+  }
+  .mid {n
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+  }
+  .nav-icon {
+    border: 0;
+  } */
+  .name {
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-00%);
+  }
+  .like {
+    height: 300px;
+  }
+  .line {
+    display: none;
+  }
+}

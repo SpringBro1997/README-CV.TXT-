@@ -1,0 +1,25 @@
+/* Moblie  */
+@media screen and (max-width: 536px) {
+  .space {
+    display: none;
+  }
+  .mid {
+    padding-bottom: 50px;
+    text-align: start;
+  }
+  .name {
+    top: 25%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-100%);
+  }
+  .line,
+  .space-1 {
+    display: none;
+  }
+  .like {
+    height: 200px;
+  }
+  .self-1 {
+    text-align: start;
+  }
+}

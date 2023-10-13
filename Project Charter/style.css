@@ -1,0 +1,45 @@
+body {
+  font-family: inter, sans-serif;
+  justify-items: center;
+  font-size: 15px;
+  width: auto;
+  padding: 10px 75px 0 50px;
+  margin: 0;
+}
+.project {
+  background-color: #d8eded;
+  height: auto;
+  padding-bottom: -20px;
+}
+.text {
+  font-size: 20px;
+}
+.Goals,
+.Primary,
+.Scopes,
+.Team,
+.time-line {
+  border: 15px solid blue;
+  margin: 0;
+  font-size: 14px;
+}
+.Scopes,
+.Primary,
+.Team,
+.time-line {
+  border-top: 0;
+  padding: 0;
+}
+
+.number {
+  font-size: 16px;
+  border: 2px solid blue;
+  border-radius: 50%;
+  background: violet;
+  width: 30px;
+  height: 30px;
+  color: white;
+  justify-items: center;
+  padding: 3px 0 0 5px;
+}
+

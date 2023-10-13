@@ -1,0 +1,71 @@
+@media screen and (min-width: 1280px) {
+  /* Chỉnh vị trí các cột */
+  .project {
+    width: auto;
+    display: grid;
+    grid-template-columns: 54% 20.5% 25.5%;
+    align-items: start;
+    grid-template-areas:
+      "goal team time-line"
+      "scopes primary time-line";
+  }
+  .Goals {
+    grid-area: goal;
+    border: 15px solid blue;
+    margin: 0;
+    height: 586px;
+    margin-bottom: 0;
+    width: auto;
+    justify-content: start;
+  }
+  .Scopes {
+    grid-area: scopes;
+    border: 15px solid blue;
+    height: 200px;
+    border-top: 0;
+  }
+  .Team {
+    grid-area: team;
+    border: 15px solid blue;
+    height: 586px;
+    border-right: 0;
+    border-left: 0;
+  }
+  .Primary {
+    grid-area: primary;
+    border: 15px solid blue;
+    height: 200px;
+    border-right: 0;
+    border-top: 0;
+    border-left: 0;
+  }
+  .time-line {
+    grid-area: time-line;
+    border: 15px solid blue;
+    height: 786px;
+  }
+  .Goal-1,
+  .Goal-2,
+  .Goal-3 {
+    width: 505px;
+    margin: 0;
+    padding-right: 0;
+    height: 120px;
+  }
+  .Team-1,
+  .Team-2,
+  .Team-3,
+  .Team-4 {
+    margin: 0;
+    padding: 0;
+    width: 290px;
+    height: 105px;
+  }
+  .line {
+    padding-left: 20px;
+    margin-top: 25px;
+  }
+  .start {
+    width: auto;
+  }
+}
